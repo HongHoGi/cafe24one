@@ -212,3 +212,74 @@ font-family: 'Open Sans', sans-serif;
     background:#333;
     color:#fff;
 }
+
+#main .background {
+    background:url(../images/intro_bg.jpg) no-repeat
+    fixed center top;
+    margin-top:500px;
+    height:350px;
+    padding:150px;
+    text-align:center;
+    color:#fff;
+}
+#main .background > h3 {
+    font-size:30px;
+}
+#main .background > a {
+    border:1px solid #fff;
+    padding:10px;
+    position:relative;
+    top:30px;
+}
+#main .background > a:hover {
+    background:rgba(0,0,0,0.7)
+}
+
+
+#main .product {
+    background-color:#ffff;
+    padding:60px 0;
+    text-align:center; 
+}
+#main .product p {
+    padding:10px 0 20px;
+}
+#main .product ul > li {
+    float:left;
+    width:32%;
+    margin-right:2%;
+}
+#main .product ul > li:last-child {
+    margin-right:0%;
+}
+#main .product ul h3 {
+    font-size:16px; color:#333;
+    padding:20px 10px 10px;
+ }
+ #main .product ul h3:hover {
+     color:#002a62
+  }
+ #main .product ul p {
+  font-size:13px; color:#888;
+  padding:0 10px 20px; 
+  word-break:keep-all;
+ }
+
+
+ #footer {
+    background-color: #707274;
+    padding:35px 0 50px;
+    margin-top:320px;
+}
+#footer .inner { position:relative }
+#footer .bmenu { font-size:14px; color:#eee }
+#footer .bmenu a { padding:0 15px; position:relative; transition:all 0.3s }
+#footer .bmenu a:first-child { padding-left:0px }
+#footer .bmenu a::after {
+    content:''; width:1px; height:10px; background-color:#b2b2b2;
+    position:absolute; right:-3px; top:6px; 
+}
+#footer .bmenu a:last-child::after { display:none }
+#footer .bmenu a:hover { color:#fff }
+
+#footer .info { color:#bbb; font-size:13px; padding-top:10px }
